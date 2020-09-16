@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
-
-@WebServlet(name = "HelloWorldServlet", urlPatterns = "/")
+//------------------------ First Web Servlet for landing page --------------------------
+@WebServlet(name = "HelloWorldServlet", urlPatterns = "/home")
 public class HelloWorldServlet extends HttpServlet {
 
 
